@@ -1,0 +1,398 @@
+.row.middle{
+	height: calc(100vh - 71px);
+	margin-top: 71px;
+}
+
+#jayNavBar{
+	padding: 0 30px;
+	max-width: 1500px;
+    box-sizing: content-box;
+	background-color: rgb(255, 255, 255)!important;
+	border-bottom: 1px solid rgb(242, 242, 242);
+	position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 1;
+}
+
+#jayNavBar #navbarSupportedContent{
+	height: 70px;
+}
+
+#jayNavBar #navbarSupportedContent > ul {
+	height: 100%;
+}
+
+#jayNavBar .nav-item a{
+	color: #343038;
+	font-size: 14px;
+}
+
+#jayNavBar .nav-item .nav-link,
+#jayNavBar .searchBar{
+	top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    margin: 0 17px;	
+}
+
+#jayNavBar .nav-item.dropdown:hover{
+	background-color:  rgb(250, 250, 250);
+}
+
+#jayNavBar .nav-item.dropdown .dropdown-menu{
+    height: 195px;
+    margin: 0;
+}
+
+#jayNavBar .nav-item.dropdown .dropdown-menu .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    writing-mode: vertical-lr;
+}
+
+#jayNavBar .nav-item.dropdown .dropdown-item{
+	width: 160px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	writing-mode: horizontal-tb;
+}
+
+#jayNavBar .searchBar input{
+	width: 180px;
+	height: 40px;
+	transition: 300ms;
+}
+
+#jayNavBar .searchBar{
+    border: 1px solid #ced4da;
+    border-radius: 0.25em;
+}
+
+#jayNavBar .searchBar input{
+	box-shadow: none;
+    border: 0px solid;
+    outline: none;
+    font-size: 14px;
+}
+
+#jayNavBar .searchBar input:focus{
+	width: 280px;
+}
+
+#jayNavBar .nav.right .nav-link{
+	margin: 0px;
+	padding: 0px
+}
+
+#jayNavBar .nav.right .nav-link.register{
+	padding-right: 20px;
+	border-right: 1px solid rgb(242, 242, 242);
+}
+
+#jayNavBar .nav.right .nav-link.login{
+	padding-left: 20px;
+	border-left: 1px solid rgb(242, 242, 242);
+}
+
+#jayContainer{
+	display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#jayContainer .left{
+	width: 360px;
+}
+
+#jayContainer .left .userInfo{
+	height: 248px;
+	padding: 20px 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(230, 230, 230);
+    border-radius: 4px;
+}
+
+#jayContainer .left .userInfo .userContent{
+	display: flex;
+}
+
+#jayContainer .left .userInfo .userContent .right{
+	margin: 0 10px;
+}
+
+#jayContainer .left .userInfo .userImg{
+	width: 48px;
+	height: 48px;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    background-image: url(https://assets-17app.akamaized.net/THUMBNAIL_D3F37D77-1C3C-4494-8448-EF5DD29EB386.jpg), url(https://webcdn.17app.co/17live/ig-default.svg);
+}
+
+#jayContainer .left .userInfo a{
+	color: #343038;
+}
+
+#jayContainer .left .userInfo a:hover{
+	text-decoration: none;
+}
+
+#jayContainer .left .userInfo .userRate{
+	background-color: #9e7bff;
+    padding: 1px 4px 0;
+    border-radius: 4px;
+}
+
+#jayContainer .left .userInfo .userRate > svg{
+	width: 14px;
+	height: 14px;
+	vertical-align: inherit;
+}
+
+#jayContainer .left .userInfo .userRate:after{
+	content: "63";
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    letter-spacing: normal;
+    margin: 2px;
+    vertical-align: text-bottom;
+}
+
+#jayContainer .left .userInfo .bottom{
+	font-size: 12px; 
+	margin-top: 5px;
+	color: rgb(111, 103, 119);;
+}
+
+#jayContainer .left .userInfo .userDescribe{
+	font-size: 14px;
+	margin: 20px 0;
+}
+
+#jayContainer .left .userInfo .traceBtn button{
+    width: 100%;
+    font-size: 12px;
+    padding: 5px;
+}
+
+#jayContainer .left .hot{
+	margin-top: 20px;
+	padding: 20px 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(230, 230, 230);
+    border-radius: 4px;
+    height: calc(100% - 310px);
+}
+
+#jayContainer .left .hot h3{
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+#jayContainer .left .hot .userList{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height: calc(100% - 35px); 
+}
+
+#jayContainer .left .hot .userList-item{
+	width: 33%;
+}
+
+#jayContainer .left .hot .userList-item .user{
+	padding: calc(50% - 10px) 0;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 10px 1px;
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 10px;
+}
+
+#jayContainer .middle{
+	margin-left: 20px;
+    border-radius: 4px;
+    background-color: rgb(111, 103, 119);
+    background-repeat: no-repeat;
+    background-position: center bottom;	
+    overflow: hidden;
+}
+
+#jayContainer .liveVideo{
+	height: 100%;
+	background-image: url(https://assets-17app.akamaized.net/THUMBNAIL_D3F37D77-1C3C-4494-8448-EF5DD29EB386.jpg);
+    background-size: cover;
+    filter: grayscale(100%) blur(30px);
+    opacity: 0.5;
+    background-position: center center
+}
+
+#jayContainer .rightSide{
+	margin-left: 20px;
+	width: 360px;
+    height: calc(100% - 40px);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(230, 230, 230);
+    border-radius: 4px;
+}
+
+#jayContainer .rightSide .nav{
+    justify-content: center;
+    border: 0;
+}
+
+#jayContainer .rightSide .nav-item{
+	width: 33%;
+	position: relative;
+}
+
+#jayContainer .rightSide .nav-item a{
+	border: 0;
+	text-align: center;
+	color: rgb(169, 164, 176);
+    font-size: 14px;
+    position: relative;
+    padding: 15px;	
+}
+
+#jayContainer .rightSide .nav-item a:after{
+	content: "";
+    position: absolute;
+    right: 0px;
+    width: 1px;
+    height: 1.3em;
+    background-color: rgb(210, 210, 215);
+}
+
+#jayContainer .rightSide .nav-item:last-child a:after{
+	display: none;
+}
+
+#jayContainer .rightSide .nav-item.active:after{
+	content: "";
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	display: block;
+	background-color: rgb(250, 250, 250);
+	bottom: 0;
+    box-shadow: rgb(230, 230, 230) 1px 1px 1px 0px inset;
+    left: 50%;
+    transform: translate(-50%, 50%) rotate(45deg);
+    z-index: 1;
+}
+
+#jayContainer .rightSide .nav-item.active a{
+	color: rgb(40, 35, 45);
+}
+
+#jayContainer .rightSide .message{
+    height: calc( 100% - 50px);
+	background-color: rgb(250, 250, 250);
+    border-top: 1px solid rgb(230, 230, 230);
+    position: relative;
+}
+
+#jayContainer .rightSide .message .nonLive{
+	width: 145px;
+    height: 101px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(calc(-50% - 78px));
+}
+
+#jayContainer .rightSide .message .nonLive .txt{
+    color: rgb(169, 164, 176);
+    font-size: 14px;
+    margin-top: 14px;	
+}
+
+#jayContainer .rightSide .message .sendMsgBox{
+	padding: 14px 14px 18px 14px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#jayContainer .rightSide .message .sendMsgBox .txtArea{
+	color: rgb(111, 103, 119);
+    width: 100%;
+    height: 46px;
+    resize: none;
+    display: block;
+    background-color: rgb(247, 247, 247);
+    padding: 10px 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(235, 235, 235);
+    border-radius: 4px;
+}
+
+@media(max-width: 1000px){
+	#jayNavBar #navbarSupportedContent{
+		height: auto;
+	}
+
+	#jayNavBar .nav-item .nav-link, 
+	#jayNavBar .searchBar{
+		top: 0;
+		transform: none;
+	    text-align: center!important;
+	}
+
+	#jayNavBar .searchBar input{
+	    flex-grow: 1;
+	    width: auto!important;
+	}
+
+	#jayNavBar #navbarSupportedContent > ul{
+	    justify-content: center;
+	    margin: 30px 0;
+	}
+
+	#jayContainer{
+	    flex-direction: row;
+    	justify-content: flex-start;
+    	flex-wrap: wrap;
+	}
+
+	#jayContainer .left{
+	    order: 3;
+    	width: 100%;
+	    margin: 30px 0;
+	}
+
+	#jayContainer .middle{
+		 width: 50%;
+		 margin: 0;
+	     height: calc(100vh - 110px);
+	}
+
+	#jayContainer .rightSide{
+	    flex-grow: 1;
+	}
+}
+
+@media(max-width: 770px){
+	#jayContainer .rightSide{
+		margin: 30px 0 0 ;
+	    flex-grow: 0;
+	    width: 100%; 
+	}
+
+	#jayContainer .middle{
+	   width: auto;
+	    left: 50%;
+	    position: relative;
+	    transform: translateX(-50%);
+	}
+}

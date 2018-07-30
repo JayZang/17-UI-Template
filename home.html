@@ -1,0 +1,262 @@
+<html>
+<head>
+	<title>17 直播 - 華人最佳直播社交 App - 17 直播</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="https://17.live/assets/favicon.ico">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="home.js"></script>
+
+</head>
+<body>
+	<nav id="jayNavBar" class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">
+	  	<img src="https://17.live/assets/0c905087846eea5c9e7cd23d03626820.png" width="44" height="44" alt="">
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  	<ul class="navbar-nav mr-auto left">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">首頁<span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          17TV
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	        	<div class="wrapper">
+			          <a class="dropdown-item" href="#">17好聰明x17金麥克</a>
+			          <a class="dropdown-item" href="#">17Q</a>			          
+			          <a class="dropdown-item" href="#">流行翎距離</a>
+			          <a class="dropdown-item" href="#">電玩者們</a>
+			          <a class="dropdown-item" href="#">趣你的娛樂</a>
+			          <a class="dropdown-item" href="#">P城酒霸</a>
+			          <a class="dropdown-item" href="#">一首歌系列</a>
+			          <a class="dropdown-item" href="#">翻白眼女孩</a>
+			          <a class="dropdown-item" href="#">加減乘除</a>
+			          <a class="dropdown-item" href="#">妹妹想吃</a>
+	        	</div>
+	        </div>
+	      </li>
+	      <li class="nav-item">
+	      	<a class="nav-link text-sm-left" href="#">儲值</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">排行榜</a>
+	      </li>
+	      <li class="nav-item">
+	      	<form class="form-inline my-2 my-lg-0 searchBar">
+	      		<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><g fill="none" fill-rule="evenodd" stroke="#A9A4B0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" transform="translate(8 8)"><circle cx="5.833" cy="5.833" r="5.833"></circle><path d="M14 14L9.956 9.956"></path></g></svg>
+	      		<input class="form-control mr-sm-2" type="search" placeholder="搜尋" aria-label="Search">
+	    	</form>
+	      </li>
+	    </ul>
+	    <ul class="nav right">
+	      <li class="nav-item">
+	      	<a class="nav-link register" href="#">註冊</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link login" href="#">登入</a>
+	      </li>
+	    </ul>	
+	  </div>
+	</nav>
+	<div class="jayContainer container">
+		<div class="row top">
+			<div class="left">
+				<div class="loadAnimation"></div>
+			</div>
+			<div class="right">
+				<div class="liveUserList">
+					<div class="liveUserList-item"></div>
+					<div class="liveUserList-item"></div>
+					<div class="liveUserList-item"></div>
+					<div class="liveUserList-item"></div>
+					<div class="liveUserList-item"></div>
+					<div class="liveUserList-item"></div>
+					<div class="liveUserList-item"></div>
+					<div class="liveUserList-item"></div>
+					<div class="liveUserList-item"></div>
+					<div class="liveUserList-item"></div>
+					<div class="liveUserList-item"></div>
+					<div class="liveUserList-item"></div>
+					<div class="liveUserList-item"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="jayWrapper">
+		<div class="navTab">
+			<ul id="jayNavTab" class="nav nav-tabs ">
+			  	<li class="nav-item">
+			    	<a class="nav-link" href="#">追蹤</a>
+			  	</li>
+			  	<li class="nav-item">
+			    	<a class="nav-link active" href="#">熱門</a>
+			  	</li>
+			  	<li class="nav-item">
+			    	<a class="nav-link" href="#">最新</a>
+			  	</li>
+			</ul>
+		</div>
+		<div class="jayContainer container">	
+			<div class="row middle">
+				<div class="col-12 liveUserList">
+					<div class="liveUserList-item">
+						<div class="userWrapper">
+							<a href="./user.html"><div class="user"></div></a>
+						</div>
+					</div>
+					<div class="liveUserList-item">
+						<div class="userWrapper">
+							<a href="./user.html"><div class="user"></div></a>
+						</div>
+					</div>
+					<div class="liveUserList-item">
+						<div class="userWrapper">
+							<a href="./user.html"><div class="user"></div></a>
+						</div>
+					</div>
+					<div class="liveUserList-item">
+						<div class="userWrapper">
+							<a href="./user.html"><div class="user"></div></a>
+						</div>
+					</div>
+					<div class="liveUserList-item">
+						<div class="userWrapper">
+							<a href="./user.html"><div class="user"></div></a>
+						</div>
+					</div>
+					<div class="liveUserList-item">
+						<div class="userWrapper">
+							<a href="./user.html"><div class="user"></div></a>
+						</div>
+					</div>
+					<div class="liveUserList-item">
+						<div class="userWrapper">
+							<a href="./user.html"><div class="user"></div></a>
+						</div>
+					</div>
+					<div class="liveUserList-item">
+						<div class="userWrapper">
+							<a href="./user.html"><div class="user"></div></a>
+						</div>
+					</div>
+					<div class="liveUserList-item">
+						<div class="userWrapper">
+							<a href="./user.html"><div class="user"></div></a>
+						</div>
+					</div>
+					<div class="liveUserList-item">
+						<div class="userWrapper">
+							<a href="./user.html"><div class="user"></div></a>
+						</div>
+					</div>
+					<div class="liveUserList-item">
+						<div class="userWrapper">
+							<a href="./user.html"><div class="user"></div></a>
+						</div>
+					</div>
+					<div class="liveUserList-item">
+						<div class="userWrapper">
+							<a href="./user.html"><div class="user"></div></a>
+						</div>
+					</div>
+					<div class="liveUserList-item">
+						<div class="userWrapper">
+							<a href="./user.html"><div class="user"></div></a>
+						</div>
+					</div>
+					<div class="liveUserList-item">
+						<div class="userWrapper">
+							<a href="./user.html"><div class="user"></div></a>
+						</div>
+					</div>
+					<div class="liveUserList-item">
+						<div class="userWrapper">
+							<a href="./user.html"><div class="user"></div></a>
+						</div>
+					</div>
+					<div class="liveUserList-item">
+						<div class="userWrapper">
+							<a href="./user.html"><div class="user"></div></a>
+						</div>
+					</div>
+					<div class="liveUserList-item">
+						<div class="userWrapper">
+							<a href="./user.html"><div class="user"></div></a>
+						</div>
+					</div>
+					<div class="liveUserList-item">
+						<div class="userWrapper">
+							<a href="./user.html"><div class="user"></div></a>
+						</div>
+					</div>
+					<div class="liveUserList-item">
+						<div class="userWrapper">
+							<a href="./user.html"><div class="user"></div></a>
+						</div>
+					</div>
+					<div class="liveUserList-item">
+						<div class="userWrapper">
+							<a href="./user.html"><div class="user"></div></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 more">
+					<button type="button" class="btn btn-outline-secondary">載入更多</button>
+				</div>
+			</div>
+		</div>		
+	</div>
+	<div class="jayWrapper footer">
+		<div class="footer">
+			<div class="row bottom">
+				<div class="col-12 wrapper">
+					<div class="iconSvg">
+						<svg xmlns="http://www.w3.org/2000/svg" width="48" height="30" viewBox="0 0 48 30"><g fill="#28232D" fill-rule="evenodd"><path d="M7.424 14.854c-.754 2.785-3.04 3.26-5.002 2.729C.46 17.05-.434 15.714.32 12.929s2.955-4.611 4.917-4.08c1.962.532 2.941 3.22 2.187 6.005m16.3 7.668c6.137.015 11.132-4.942 11.162-11.085C34.917 5.283 29.956.27 23.805.239h-.163c-6.15.03-11.112 5.044-11.08 11.198.03 6.143 5.025 11.1 11.162 11.085"></path><path d="M37.16 21.35c-1.05.054-1.904-.654-2.088-1.68-.182-1.01-1.716-.581-1.536.423.118.656.437 1.247.882 1.718-.01.02-.02.038-.028.059-1.667 3.94-6.571 5.564-10.565 5.59h-.203c-3.994-.026-8.898-1.65-10.565-5.59l-.028-.059a3.385 3.385 0 0 0 .882-1.718c.18-1.004-1.354-1.433-1.535-.424-.185 1.027-1.039 1.735-2.088 1.68-1.027-.052-1.022 1.54 0 1.594.486.025.966-.06 1.41-.233 1.883 4.388 7.51 6.414 12.026 6.347 4.515.067 10.143-1.96 12.025-6.347a3.4 3.4 0 0 0 1.41.233c1.022-.053 1.027-1.646 0-1.593m2.864-6.496c.754 2.785 3.04 3.26 5.002 2.729 1.962-.532 2.857-1.869 2.103-4.654s-2.956-4.611-4.918-4.08c-1.962.532-2.941 3.22-2.187 6.005"></path></g></svg>
+					</div>
+					<div class="appStores">
+						<span>
+							<a href="#">
+								<svg xmlns="http://www.w3.org/2000/svg" width="155" height="48" viewBox="0 0 155 48"><g fill="none" fill-rule="evenodd" transform="translate(1 1)"><rect width="152.876" height="46" fill="#FFF" stroke="#E6E6E6" rx="4.158"></rect><path d="M59.095 34.255h2.283L56.38 19.836h-2.312l-4.999 14.42h2.207l1.276-3.828h5.277l1.266 3.827zm-3.981-11.8h.163l2.005 6.095h-4.183l2.015-6.096zm12.319.739c-1.42 0-2.648.74-3.281 1.978h-.154v-1.798h-1.986v14.408h2.063v-5.175h.163c.547 1.149 1.727 1.828 3.214 1.828 2.638 0 4.317-2.168 4.317-5.626 0-3.457-1.679-5.615-4.336-5.615zm-.585 9.313c-1.727 0-2.811-1.42-2.811-3.688 0-2.278 1.084-3.697 2.82-3.697 1.746 0 2.792 1.39 2.792 3.687 0 2.309-1.046 3.698-2.801 3.698zm11.283-9.313c-1.42 0-2.648.74-3.281 1.978h-.154v-1.798H72.71v14.408h2.063v-5.175h.163c.547 1.149 1.727 1.828 3.214 1.828 2.638 0 4.317-2.168 4.317-5.626 0-3.457-1.679-5.615-4.336-5.615zm-.586 9.313c-1.726 0-2.81-1.42-2.81-3.688 0-2.278 1.084-3.697 2.82-3.697 1.746 0 2.792 1.39 2.792 3.687 0 2.309-1.046 3.698-2.802 3.698zm9.289-2.129c.153 2.578 2.216 4.227 5.286 4.227 3.281 0 5.334-1.729 5.334-4.487 0-2.168-1.17-3.367-4.01-4.056l-1.526-.39c-1.803-.44-2.532-1.03-2.532-2.058 0-1.3 1.132-2.149 2.83-2.149 1.612 0 2.724.83 2.926 2.159h2.091c-.124-2.429-2.177-4.137-4.988-4.137-3.023 0-5.037 1.708-5.037 4.276 0 2.119 1.141 3.378 3.645 3.987l1.785.45c1.832.45 2.638 1.11 2.638 2.208 0 1.28-1.266 2.208-2.993 2.208-1.852 0-3.137-.869-3.32-2.238h-2.13zm12.396-9.642v2.688h-1.718v1.808h1.718v6.145c0 2.099.911 2.938 3.204 2.938.403 0 .777-.05 1.103-.11v-1.788c-.288.03-.45.05-.767.05-1.027 0-1.478-.5-1.478-1.64v-5.595h2.341v-1.808h-2.34v-2.688H99.23zm9.517 11.82c-1.794 0-2.801-1.368-2.801-3.747 0-2.358 1.007-3.737 2.801-3.737 1.785 0 2.802 1.38 2.802 3.737 0 2.369-1.017 3.748-2.802 3.748zm0 1.91c3.051 0 4.922-2.13 4.922-5.657 0-3.507-1.88-5.645-4.922-5.645-3.05 0-4.93 2.138-4.93 5.645 0 3.528 1.87 5.656 4.93 5.656zm5.863-.21h2.063V27.83c0-1.529 1.103-2.558 2.657-2.558.345 0 .979.07 1.142.13v-2.118c-.22-.06-.614-.09-.912-.09-1.362 0-2.513.78-2.81 1.848h-.154v-1.668h-1.986v10.881zm10.506-9.264c1.525 0 2.523 1.11 2.571 2.818h-5.277c.115-1.698 1.18-2.818 2.706-2.818zm2.561 6.326c-.383.849-1.237 1.318-2.484 1.318-1.65 0-2.716-1.209-2.783-3.117v-.12h7.378v-.75c0-3.417-1.756-5.485-4.663-5.485-2.945 0-4.816 2.208-4.816 5.685 0 3.478 1.833 5.616 4.826 5.616 2.389 0 4.058-1.199 4.528-3.147h-1.986zM51.002 8.582v6.866h2.38c1.965 0 3.103-1.261 3.103-3.455 0-2.16-1.147-3.411-3.102-3.411h-2.38zm1.024.97h1.242c1.366 0 2.175.904 2.175 2.456 0 1.575-.795 2.47-2.175 2.47h-1.242V9.551zm8.06 5.087c-.855 0-1.334-.652-1.334-1.784 0-1.123.48-1.78 1.334-1.78.85 0 1.334.657 1.334 1.78 0 1.127-.485 1.784-1.334 1.784zm0 .909c1.452 0 2.343-1.014 2.343-2.693 0-1.67-.895-2.689-2.343-2.689-1.453 0-2.349 1.018-2.349 2.689 0 1.68.891 2.693 2.349 2.693zm10.042-5.282h-.982l-.886 3.954h-.078l-1.023-3.954h-.941l-1.024 3.954h-.073l-.89-3.954h-.997l1.37 5.182h1.01l1.024-3.816h.077l1.028 3.816h1.02l1.365-5.182zm1.248 5.182h.983v-3.031c0-.81.484-1.313 1.274-1.313.731 0 1.088.414 1.088 1.246v3.098h.982v-3.355c0-1.232-.626-1.927-1.736-1.927-.75 0-1.33.348-1.572.923h-.073v-.823h-.946v5.182zm5.986 0h.982V8.244h-.982v7.204zm4.789-.81c-.854 0-1.334-.651-1.334-1.783 0-1.123.48-1.78 1.334-1.78.85 0 1.334.657 1.334 1.78 0 1.127-.484 1.784-1.334 1.784zm0 .91c1.453 0 2.343-1.014 2.343-2.693 0-1.67-.895-2.689-2.343-2.689-1.453 0-2.348 1.018-2.348 2.689 0 1.68.89 2.693 2.348 2.693zm5.383-.876c-.535 0-.923-.271-.923-.737 0-.457.31-.7.996-.747l1.215-.081v.433c0 .642-.548 1.132-1.288 1.132zm-.252.861c.654 0 1.197-.295 1.494-.813h.078v.728h.946v-3.54c0-1.095-.704-1.742-1.951-1.742-1.129 0-1.933.571-2.033 1.461h.95c.11-.366.489-.576 1.037-.576.672 0 1.019.31 1.019.857v.447l-1.348.08c-1.183.077-1.85.615-1.85 1.547 0 .947.699 1.551 1.658 1.551zm5.968 0c.685 0 1.265-.337 1.562-.904h.078v.819h.94V8.244h-.981v2.845h-.073c-.27-.57-.846-.909-1.526-.909-1.257 0-2.065 1.038-2.065 2.675 0 1.641.8 2.678 2.065 2.678zm.278-4.434c.823 0 1.339.68 1.339 1.76 0 1.085-.512 1.756-1.339 1.756-.831 0-1.33-.661-1.33-1.76 0-1.09.503-1.756 1.33-1.756zm8.902 3.54c-.855 0-1.334-.652-1.334-1.784 0-1.123.48-1.78 1.334-1.78.85 0 1.334.657 1.334 1.78 0 1.127-.485 1.784-1.334 1.784zm0 .909c1.453 0 2.343-1.014 2.343-2.693 0-1.67-.895-2.689-2.343-2.689-1.453 0-2.349 1.018-2.349 2.689 0 1.68.891 2.693 2.349 2.693zm3.756-.1h.982v-3.031c0-.81.485-1.313 1.275-1.313.73 0 1.087.414 1.087 1.246v3.098h.982v-3.355c0-1.232-.625-1.927-1.736-1.927-.749 0-1.33.348-1.571.923h-.073v-.823h-.946v5.182zm9.08-6.438v1.28h-.818v.861h.818v2.926c0 1 .434 1.4 1.525 1.4a2.9 2.9 0 0 0 .526-.053v-.852c-.137.015-.215.024-.366.024-.488 0-.703-.238-.703-.78V11.15h1.115v-.861h-1.115V9.01h-.982zm3.495 6.438h.983v-3.026c0-.786.498-1.314 1.302-1.314.74 0 1.11.419 1.11 1.247v3.093h.982v-3.345c0-1.233-.64-1.932-1.759-1.932-.749 0-1.325.347-1.567.928h-.077V8.244h-.974v7.204zm8.037-4.411c.727 0 1.202.528 1.225 1.342h-2.513c.055-.81.562-1.342 1.288-1.342zm1.22 3.012c-.183.404-.59.628-1.183.628-.786 0-1.293-.576-1.325-1.485v-.057h3.513v-.357c0-1.627-.836-2.612-2.22-2.612-1.403 0-2.293 1.052-2.293 2.708 0 1.655.872 2.674 2.298 2.674 1.137 0 1.932-.571 2.156-1.5h-.946zM37.202 23.2c-.03-3.485 2.74-5.18 2.867-5.26-1.57-2.382-4-2.707-4.855-2.733-2.043-.224-4.024 1.272-5.064 1.272-1.061 0-2.663-1.25-4.39-1.214-2.222.036-4.3 1.376-5.44 3.456-2.353 4.242-.598 10.476 1.656 13.905 1.127 1.68 2.445 3.555 4.17 3.489 1.687-.071 2.317-1.12 4.353-1.12 2.017 0 2.61 1.12 4.368 1.077 1.81-.028 2.95-1.686 4.039-3.382 1.303-1.922 1.826-3.82 1.847-3.918-.042-.014-3.516-1.394-3.551-5.572M33.88 12.951c.907-1.182 1.528-2.79 1.355-4.422-1.313.06-2.955.946-3.901 2.102-.837 1.02-1.585 2.689-1.392 4.259 1.476.114 2.99-.775 3.938-1.939" fill="#28232D"></path></g></svg>
+							</a>
+						</span>
+						<span>
+							<a href="#">
+								<svg xmlns="http://www.w3.org/2000/svg" width="155" height="48" viewBox="0 0 155 48"><g fill="none" fill-rule="evenodd" transform="translate(.781 1)"><rect width="152.876" height="46" fill="#FFF" stroke="#E6E6E6" rx="5.197"></rect><g fill="#28232D"><path d="M80.597 16.204c-1.858 0-3.365-1.568-3.365-3.502 0-1.934 1.507-3.503 3.365-3.503 1.858 0 3.365 1.569 3.365 3.503 0 1.934-1.507 3.502-3.365 3.502zm0-1.07c1.29 0 2.337-1.089 2.337-2.432s-1.047-2.432-2.337-2.432c-1.29 0-2.337 1.089-2.337 2.432s1.047 2.432 2.337 2.432zm-22.805-2.043v2.14h2.71v.779h-3.738V9.49h3.739v.779h-2.71v2.043h2.43v.778h-2.43zm6.356-2.821v5.74H63.12v-5.74h-1.59v-.78h4.207v.779h-1.59zm9.159 0v5.74h-1.028v-5.74H70.69v-.78h4.206v.779h-1.589zm-4.579-.779h1.028v6.518h-1.028zm17.102 0h.188l2.804 4.77V9.49h1.028v6.519h-1.028l-2.991-5.088v5.088h-1.028V9.49h1.028zm-32.918 2.936h2.815l-.028.927h-2.787z"></path><path d="M55.173 10.245l-.644.67c-.402-.428-.973-.662-1.63-.662-1.317 0-2.384 1.11-2.384 2.478s1.067 2.478 2.383 2.478 2.25-.791 2.248-2.478c.003-.104 0-.206-.006-.304h.822v.034c.31 2.362-1.237 3.721-3.092 3.704-1.824-.003-3.302-1.537-3.302-3.434 0-1.897 1.478-3.434 3.302-3.434.954 0 1.755.346 2.303.948z"></path></g><g fill="#28232D"><path d="M107.888 21.166h5.299s3.05.54 3.05 4.187c0 3.646-3.05 4.186-3.05 4.186h-5.3v-8.373zm1.028 2.025v4.494h3.597s1.637 0 1.637-2.247-1.637-2.247-1.637-2.247h-3.597z"></path><path d="M107.42 21.166h1.87v13.621h-1.87zm9.907 0h1.87v13.62h-1.87zm8.798 12.647c-.515.442-1.338.858-2.638.943-2.978.193-2.98-2.636-2.98-2.826 0-.191-.147-2.498 2.222-2.865 1.678-.26 2.853.173 3.396.448v-.4c-.133-.53-.546-1.504-1.785-1.504-1.702 0-2.078.957-2.078.957l-1.557-.957s.871-1.87 3.485-1.87c3.251 0 3.804 2.334 3.804 3.12v5.923h-1.869v-.97zm-.134-2.918s-3.6-1.01-3.726 1.096c-.125 2.106 3.455 1.095 3.775-.398 0-.475-.049-.698-.049-.698zm5.511 3.375l-3.333-8.24h1.87l2.397 5.93 2.38-5.882h1.868l-5.057 12.503h-1.869l1.744-4.311zm-28.266-5.055l-5.912 2.543s.382 1.407 2.16 1.416c1.391.007 2.177-1.284 2.177-1.284l1.5 1.057s-1.21 2.038-3.69 2.038c-3.046 0-4.387-2.773-4.387-4.574 0-1.734 1.065-4.672 4.198-4.672 3.134 0 3.954 3.476 3.954 3.476zm-2.25-.72s-.743-1.179-1.884-.962c-2.413.46-2.11 2.658-2.11 2.658l3.995-1.697zm-8.706-7.329h1.977v13.592H92.28zm-3.165 4.868l1.828.017v8.576c0 2.191-1.253 4.504-4.203 4.504s-3.904-2.721-3.904-2.721l1.68-.735s.511 1.677 2.31 1.677c2.05 0 2.29-1.941 2.29-2.605v-.931s-.71 1.155-2.471 1.155c-1.91 0-4.179-1.703-4.179-4.606 0-2.904 2.137-4.564 4.201-4.625 1.653-.048 2.448 1.142 2.448 1.142v-.848zm-2.314 7.194c1.333 0 2.414-1.27 2.414-2.839 0-1.568-1.08-2.839-2.414-2.839-1.333 0-2.414 1.271-2.414 2.84 0 1.567 1.081 2.838 2.414 2.838zm-9.605 1.753c-2.458 0-4.45-2.069-4.45-4.62 0-2.553 1.992-4.622 4.45-4.622 2.457 0 4.45 2.069 4.45 4.621 0 2.552-1.993 4.621-4.45 4.621zm-.03-1.812c1.382 0 2.502-1.258 2.502-2.809 0-1.551-1.12-2.809-2.501-2.809-1.382 0-2.501 1.258-2.501 2.81 0 1.55 1.12 2.808 2.5 2.808zm-9.596 1.812c-2.458 0-4.45-2.069-4.45-4.62 0-2.553 1.992-4.622 4.45-4.622 2.456 0 4.449 2.069 4.449 4.621 0 2.552-1.993 4.621-4.45 4.621zm-.03-1.812c1.381 0 2.501-1.258 2.501-2.809 0-1.551-1.12-2.809-2.501-2.809-1.381 0-2.501 1.258-2.501 2.81 0 1.55 1.12 2.808 2.501 2.808zm-11.46-5.965h5.874l-.058 1.933H56.08z"></path><path d="M60.798 22.656l-1.344 1.396c-.838-.89-2.03-1.379-3.403-1.379-2.747 0-4.973 2.313-4.973 5.165 0 2.853 2.226 5.165 4.973 5.165 2.746 0 4.696-1.649 4.692-5.165.005-.217 0-.429-.014-.634h1.716v.072c.646 4.922-2.582 7.757-6.452 7.72-3.807-.005-6.893-3.204-6.893-7.158 0-3.953 3.086-7.158 6.893-7.158 1.99 0 3.662.722 4.805 1.976z"></path></g><path fill="#28232D" d="M20.987 36.73c-.463-.127-.765-.597-.765-1.325V11.37c0-.674.256-1.129.66-1.294L32.435 23.47 20.987 36.73zm1.59-.51l13.905-8.057-3.387-3.926L22.577 36.22zm14-17.55l-13.71-7.947 10.248 11.958 3.463-4.01zm.931.54l5.371 3.112c1.017.59 1.026 1.54 0 2.135l-5.507 3.19-3.592-4.19 3.728-4.248z"></path></g></svg>
+							</a>
+						</span>
+					</div>
+					<div class="copyRightContainer">
+						<div class="left">
+							<span class="content"><a href="#">© 17 Media</a></span>
+							<span class="content"><a href="#">服務條款</a></span>
+							<span class="content"><a href="#">用戶協議</a></span>
+						</div>
+						<div class="right">
+							<span>
+								<select>
+									<option>台灣</option>
+									<option>全球</option>
+									<option>日本</option>
+									<option>香港</option>
+									<option>印尼</option>
+									<option>馬來西亞</option>
+								</select>	
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
